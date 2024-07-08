@@ -10,14 +10,14 @@ export default function Home() {
           <div className="col-md-12 text-center p-0">
             <header className="d-flex flex-wrap justify-content-center py-2 mb-1 border-bottom">
               <a href="/" className="d-flex align-items-center mb-md- me-md-auto link-body-emphasis text-decoration-none">
-              <img src="https://image.dogilike.com/shareimg/contentimg/2021/meaw/%E0%B9%80%E0%B8%A3%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%87%E0%B8%99%E0%B9%88%E0%B8%B2%E0%B8%A3%E0%B8%B9%E0%B9%89/29092021/iStock-953069774.jpg"class="rounded me-1 p-1" width={40} height={40} alt="..." />
+                <img src="https://image.dogilike.com/shareimg/contentimg/2021/meaw/%E0%B9%80%E0%B8%A3%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%87%E0%B8%99%E0%B9%88%E0%B8%B2%E0%B8%A3%E0%B8%B9%E0%B9%89/29092021/iStock-953069774.jpg" class="rounded me-1 p-1" width={40} height={40} alt="..." />
                 <span className="fs-4">DOGCLUB</span>
               </a>
               <ul className="nav nav-pills align-items-center">
                 <li className="nav-item"><a href="https://getbootstrap.com/" className="nav-link active" target="_blank">Home</a></li>
-                <li className="nav-item"><a href="https://getbootstrap.com/docs/5.3/getting-started/introduction/" className="nav-link"target="_blank">About</a></li>
-                <li className="nav-item"><a href="https://getbootstrap.com/docs/5.3/examples/" className="nav-link"target="_blank">Service</a></li>
-                <li className="nav-item"><a href="https://icons.getbootstrap.com/" className="nav-link"target="_blank">contact</a></li>
+                <li className="nav-item"><a href="https://getbootstrap.com/docs/5.3/getting-started/introduction/" className="nav-link" target="_blank">About</a></li>
+                <li className="nav-item"><a href="https://getbootstrap.com/docs/5.3/examples/" className="nav-link" target="_blank">Service</a></li>
+                <li className="nav-item"><a href="https://icons.getbootstrap.com/" className="nav-link" target="_blank">contact</a></li>
               </ul>
               <nav className="navbar bg-body-tertiary">
                 <form className="container-fluid justify-content-start ">
@@ -25,9 +25,7 @@ export default function Home() {
                   <button className="btn btn-outline-success me-2" type="button">Singout</button>
                 </form>
               </nav>
-
             </header>
-
           </div>
         </div>
       </div>
@@ -72,10 +70,10 @@ export default function Home() {
               <span className="visually-hidden">Next</span>
             </button>
           </div>
-
         </div>
       </div>
-      ิ<br></br>
+      <br></br>
+
       <div className="row">
         <div className="col-sm-4 mb-3 mb-sm-0">
           <div className="card">
@@ -114,16 +112,15 @@ export default function Home() {
         <div className="col-md-12 text-center bg-white p-5">
           <div className="container">
             <footer className="d-flex flex-wrap justify-content-between border-top">
-              <p className="col-md-4 mb-0 text-body-secondary">© 2024 Company, Inc</p>
+              <p className="col-md-4 mb-0 text-body-secondary">© 2024 Company, Dogclub</p>
               <a href="/" className="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
                 <svg className="bi me-2" width={40} height={32}><use xlinkHref="#bootstrap" /></svg>
               </a>
               <ul className="nav col-md-4 justify-content-end">
                 <li className="nav-item"><a href="#" className="nav-link px-2 text-body-secondary">Home</a></li>
-                <li className="nav-item"><a href="#" className="nav-link px-2 text-body-secondary">Features</a></li>
-                <li className="nav-item"><a href="#" className="nav-link px-2 text-body-secondary">Pricing</a></li>
-                <li className="nav-item"><a href="#" className="nav-link px-2 text-body-secondary">FAQs</a></li>
                 <li className="nav-item"><a href="#" className="nav-link px-2 text-body-secondary">About</a></li>
+                <li className="nav-item"><a href="#" className="nav-link px-2 text-body-secondary">Service</a></li>
+                <li className="nav-item"><a href="#" className="nav-link px-2 text-body-secondary">contact</a></li>
               </ul>
             </footer>
           </div>
