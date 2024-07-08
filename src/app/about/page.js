@@ -12,8 +12,8 @@ export default function Home() {
                 <span className="fs-4">DOGCLUB</span>
               </a>
               <ul className="nav nav-pills align-items-center">
-                <li className="nav-item"><a href="/" className="nav-link active">Home</a></li>
-                <li className="nav-item"><a href="/about" className="nav-link">About</a></li>
+                <li className="nav-item"><a href="/" className="nav-link">Home</a></li>
+                <li className="nav-item"><a href="/about" className="nav-link active">About</a></li>
                 <li className="nav-item"><a href="/service" className="nav-link">Service</a></li>
                 <li className="nav-item"><a href="/contact" className="nav-link">Contact</a></li>
               </ul>
@@ -52,7 +52,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="carousel-item">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQGQZ7GTG2R9MbQFqO65XEHl5w1HWg0RQTKQ&s" className="d-block w-100" alt="..." />
+                <img src="..." className="d-block w-100" alt="..." />
                 <div className="carousel-caption d-none d-md-block">
                   <h5>Third slide label</h5>
                   <p>Some representative placeholder content for the third slide.</p>
