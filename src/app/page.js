@@ -18,6 +18,8 @@ export default function Home() {
                 <li className="nav-item"><a href="https://getbootstrap.com/docs/5.3/getting-started/introduction/" className="nav-link" target="_blank">About</a></li>
                 <li className="nav-item"><a href="https://getbootstrap.com/docs/5.3/examples/" className="nav-link" target="_blank">Service</a></li>
                 <li className="nav-item"><a href="https://icons.getbootstrap.com/" className="nav-link" target="_blank">contact</a></li>
+                <li className="nav-item"><a href="https://icons.getbootstrap.com/" className="nav-link" target="_blank">Singin</a></li>
+                <li className="nav-item"><a href="https://icons.getbootstrap.com/" className="nav-link" target="_blank">Singout</a></li>
               </ul>
               <nav className="navbar bg-body-tertiary">
                 <form className="container-fluid justify-content-start ">
