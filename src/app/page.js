@@ -8,23 +8,21 @@ export default function Home() {
       <div className="container-fluid">
         <div className="row">
           <div className="col-md-12 text-center p-0">
-            <header className="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
-              <a href="/" className="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
-                <svg className="bi me-2" width={40} height={32}><use xlinkHref="#bootstrap" /></svg>
+            <header className="d-flex flex-wrap justify-content-center py-2 mb-1 border-bottom">
+              <a href="/" className="d-flex align-items-center mb-md- me-md-auto link-body-emphasis text-decoration-none">
+              <img src="https://image.dogilike.com/shareimg/contentimg/2021/meaw/%E0%B9%80%E0%B8%A3%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%87%E0%B8%99%E0%B9%88%E0%B8%B2%E0%B8%A3%E0%B8%B9%E0%B9%89/29092021/iStock-953069774.jpg"class="rounded me-1 p-1" width={40} height={40} alt="..." />
                 <span className="fs-4">DOGCLUB</span>
               </a>
-              <ul className="nav nav-pills">
+              <ul className="nav nav-pills align-items-center">
                 <li className="nav-item"><a href="https://getbootstrap.com/" className="nav-link active" target="_blank">Home</a></li>
-                <li className="nav-item"><a href="https://getbootstrap.com/docs/5.3/getting-started/introduction/" className="nav-link" target="_blank">About</a></li>
-                <li className="nav-item"><a href="https://getbootstrap.com/docs/5.3/examples/" className="nav-link" target="_blank">Service</a></li>
-                <li className="nav-item"><a href="https://icons.getbootstrap.com/" className="nav-link" target="_blank">contact</a></li>
-                <li className="nav-item"><a href="https://icons.getbootstrap.com/" className="nav-link" target="_blank">Singin</a></li>
-                <li className="nav-item"><a href="https://icons.getbootstrap.com/" className="nav-link" target="_blank">Singout</a></li>
+                <li className="nav-item"><a href="https://getbootstrap.com/docs/5.3/getting-started/introduction/" className="nav-link"target="_blank">About</a></li>
+                <li className="nav-item"><a href="https://getbootstrap.com/docs/5.3/examples/" className="nav-link"target="_blank">Service</a></li>
+                <li className="nav-item"><a href="https://icons.getbootstrap.com/" className="nav-link"target="_blank">contact</a></li>
               </ul>
               <nav className="navbar bg-body-tertiary">
                 <form className="container-fluid justify-content-start ">
-                  <button className="btn btn-outline-success me-2" type="button"><a href="" className="nav-link active">Singin</a></button>
-                  <button className="btn btn-outline-success me-2" type="button"><a href="" className="nav-link active">Singout</a></button>
+                  <button className="btn btn-outline-success me-2" type="button">Singin</button>
+                  <button className="btn btn-outline-success me-2" type="button">Singout</button>
                 </form>
               </nav>
 
@@ -77,7 +75,7 @@ export default function Home() {
 
         </div>
       </div>
-      <br></br>
+      ิ<br></br>
       <div className="row">
         <div className="col-sm-4 mb-3 mb-sm-0">
           <div className="card">
