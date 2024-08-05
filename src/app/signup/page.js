@@ -1,9 +1,8 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-
-export default function About() {
-  return (
-    <>
-      <div className="container-fluid">
+export default function Signup() {
+    return (
+        <>
+        <div className="container-fluid">
         <div className="row">
           <div className="col-md-12 text-center p-0">
             <header className="d-flex flex-wrap justify-content-center py-2 mb-1 border-bottom">
@@ -19,7 +18,7 @@ export default function About() {
               </ul>
               <nav className="navbar bg-body-tertiary">
                 <form className="container-fluid justify-content-start ">
-                  <button className="btn btn-outline-success me-2" type="button"href="Signup">Sign up</button>
+                  <button className="btn btn-outline-success me-2" type="button" href="/Signup">Sign up</button>
                   <button className="btn btn-outline-success me-2" type="button">Sign in</button>
                 </form>
               </nav>
@@ -28,7 +27,29 @@ export default function About() {
         </div>
       </div>
 
-      <div className="row">
+        <br></br>
+        <div className='container-fluid'>
+            <div className='row'>
+                <div className='col-md-1'>
+                <select className='form-selct9' aria-label='Default select example'>
+                  <option selected>คำนำหน้าชื่อ</option>
+                  <option value={1}>นาย</option>
+                  <option value={2}>นาง</option>
+                  <option value={3}>นางสาว</option>
+                </select>
+                </div>
+
+                <div className='col-md-4'>
+                <input type="text" className="form-control" placeholder="First name" aria-label="First name" />
+                </div>
+
+                <div className='col-md-5'>
+                <input type="text" className="form-control" placeholder="Last name" aria-label="Last name" />
+                </div>
+            </div>
+        </div>
+
+        <div className="row">
         <div className="col-md-12 text-center bg-white p-5">
           <div className="container">
             <footer className="d-flex flex-wrap justify-content-between border-top">
@@ -46,6 +67,6 @@ export default function About() {
           </div>
         </div>
       </div>
-    </>
-  );
+        </>
+    )
 }
