@@ -1,9 +1,9 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 export default function Signup() {
-    return (
-        <>
-        <div className="container-fluid">
-        <div className="row">
+  return (
+    <>
+      <div className="container-fluid">
+        <div className="row bg-white">
           <div className="col-md-12 text-center p-0">
             <header className="d-flex flex-wrap justify-content-center py-2 mb-1 border-bottom">
               <a href="/" className="d-flex align-items-center mb-md- me-md-auto link-body-emphasis text-decoration-none">
@@ -12,44 +12,72 @@ export default function Signup() {
               </a>
               <ul className="nav nav-pills align-items-center">
                 <li className="nav-item"><a href="/" className="nav-link">Home</a></li>
-                <li className="nav-item"><a href="/about" className="nav-link active">About</a></li>
+                <li className="nav-item"><a href="/about" className="nav-link ">About</a></li>
                 <li className="nav-item"><a href="/service" className="nav-link">Service</a></li>
                 <li className="nav-item"><a href="/contact" className="nav-link">Contact</a></li>
               </ul>
-              <nav className="navbar bg-body-tertiary">
+              <nav className="navbar">
                 <form className="container-fluid justify-content-start ">
-                  <button className="btn btn-outline-success me-2" type="button" href="/Signup">Sign up</button>
-                  <button className="btn btn-outline-success me-2" type="button">Sign in</button>
+                  <li className="nav-item btn btn-outline-success me-2 active" ><a href="/signup" className="nav-link active">Sign up</a></li>
+                  <li className="nav-item btn btn-outline-success me-2" ><a href="/signin" className="nav-link active">Sign in</a></li>
                 </form>
               </nav>
             </header>
           </div>
         </div>
       </div>
-
-        <br></br>
-        <div className='container-fluid'>
-            <div className='row'>
-                <div className='col-md-1'>
-                <select className='form-selct9' aria-label='Default select example'>
-                  <option selected>คำนำหน้าชื่อ</option>
-                  <option value={1}>นาย</option>
-                  <option value={2}>นาง</option>
-                  <option value={3}>นางสาว</option>
-                </select>
-                </div>
-
-                <div className='col-md-4'>
-                <input type="text" className="form-control" placeholder="First name" aria-label="First name" />
-                </div>
-
-                <div className='col-md-5'>
-                <input type="text" className="form-control" placeholder="Last name" aria-label="Last name" />
-                </div>
+      <div className="row">
+        <div className="col-md-6 bg-white p-5">
+          <form className="row g-3">
+            <div className="col-md-6">
+              <label htmlFor="floatingInput" className="form-label">Email</label>
+              <input type="email" className="form-control" id="floatingInput" placeholder="name@example.com"/>
             </div>
+            <div className="col-md-6">
+              <label htmlFor="inputPassword4" className="form-label">Password</label>
+              <input type="password" className="form-control" id="inputPassword4" />
+            </div>
+            <div className="col-12">
+              <label htmlFor="inputAddress" className="form-label">Address</label>
+              <input type="text" className="form-control" id="inputAddress" placeholder="1234 Main St" />
+            </div>
+            <div className="col-12">
+              <label htmlFor="inputAddress2" className="form-label">Address 2</label>
+              <input type="text" className="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor" />
+            </div>
+            <div className="col-md-6">
+              <label htmlFor="inputCity" className="form-label">City</label>
+              <input type="text" className="form-control" id="inputCity" />
+            </div>
+            <div className="col-md-4">
+              <label htmlFor="inputState" className="form-label">State</label>
+              <select id="inputState" className="form-select">
+                <option selected>Choose...</option>
+                <option>Sing</option>
+                <option>Married</option>
+                <option>...</option>
+              </select>
+            </div>
+            <div className="col-12">
+              <div className="form-check">
+                <input className="form-check-input" type="checkbox" id="gridCheck" />
+                <label className="form-check-label" htmlFor="gridCheck">
+                  Check me out
+                </label>
+              </div>
+            </div>
+            <div className="col-12">
+              <button type="submit" className="btn btn-primary">Sign up</button>
+            </div>
+          </form>
         </div>
+        <div className="col-md-6 bg-white text-center">
+          <br></br>
+        <img src="https://image.dogilike.com/shareimg/contentimg/2021/meaw/%E0%B9%80%E0%B8%A3%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%87%E0%B8%99%E0%B9%88%E0%B8%B2%E0%B8%A3%E0%B8%B9%E0%B9%89/29092021/iStock-953069774.jpg" me-1 p-1 width={500} height={500} alt="..." />
+        </div>
+      </div>
 
-        <div className="row">
+      <div className="row">
         <div className="col-md-12 text-center bg-white p-5">
           <div className="container">
             <footer className="d-flex flex-wrap justify-content-between border-top">
@@ -67,6 +95,6 @@ export default function Signup() {
           </div>
         </div>
       </div>
-        </>
-    )
+    </>
+  )
 }

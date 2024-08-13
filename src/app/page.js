@@ -17,12 +17,13 @@ export default function Home() {
                 <li className="nav-item"><a href="/service" className="nav-link">Service</a></li>
                 <li className="nav-item"><a href="/contact" className="nav-link">Contact</a></li>
               </ul>
-              <nav className="navbar bg-body-tertiary">
+              <nav className="navbar">
                 <form className="container-fluid justify-content-start ">
-                  <button className="btn btn-outline-success me-2" type="button" href="Signup">Sign up</button>
-                  <button className="btn btn-outline-success me-2" type="button" href="/">Sign in</button>
+                  <li className="nav-item btn btn-outline-success me-2" ><a href="/signup" className="nav-link active">Sign up</a></li>
+                  <li className="nav-item btn btn-outline-success me-2" ><a href="/signin" className="nav-link active">Sign in</a></li>
                 </form>
               </nav>
+              
             </header>
           </div>
         </div>

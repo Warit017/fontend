@@ -4,7 +4,7 @@ export default function HContact() {
   return (
     <>
       <div className="container-fluid">
-        <div className="row">
+        <div className="row bg-white">
           <div className="col-md-12 text-center p-0">
             <header className="d-flex flex-wrap justify-content-center py-2 mb-1 border-bottom">
               <a href="/" className="d-flex align-items-center mb-md- me-md-auto link-body-emphasis text-decoration-none">
@@ -17,10 +17,10 @@ export default function HContact() {
                 <li className="nav-item"><a href="/service" className="nav-link">Service</a></li>
                 <li className="nav-item"><a href="/contact" className="nav-link active">Contact</a></li>
               </ul>
-              <nav className="navbar bg-body-tertiary">
+              <nav className="navbar">
                 <form className="container-fluid justify-content-start ">
-                  <button className="btn btn-outline-success me-2" type="button"href="Signup">Sign up</button>
-                  <button className="btn btn-outline-success me-2" type="button">Sign in</button>
+                  <li className="nav-item btn btn-outline-success me-2" ><a href="/signup" className="nav-link active">Sign up</a></li>
+                  <li className="nav-item btn btn-outline-success me-2" ><a href="/signin" className="nav-link active">Sign in</a></li>
                 </form>
               </nav>
             </header>

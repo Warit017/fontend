@@ -1,6 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-
-export default function Service() {
+export default function Signin() {
   return (
     <>
       <div className="container-fluid">
@@ -13,19 +12,45 @@ export default function Service() {
               </a>
               <ul className="nav nav-pills align-items-center">
                 <li className="nav-item"><a href="/" className="nav-link">Home</a></li>
-                <li className="nav-item"><a href="/about" className="nav-link">About</a></li>
-                <li className="nav-item"><a href="/service" className="nav-link active">Service</a></li>
+                <li className="nav-item"><a href="/about" className="nav-link ">About</a></li>
+                <li className="nav-item"><a href="/service" className="nav-link">Service</a></li>
                 <li className="nav-item"><a href="/contact" className="nav-link">Contact</a></li>
               </ul>
               <nav className="navbar">
                 <form className="container-fluid justify-content-start ">
                   <li className="nav-item btn btn-outline-success me-2" ><a href="/signup" className="nav-link active">Sign up</a></li>
-                  <li className="nav-item btn btn-outline-success me-2" ><a href="/signin" className="nav-link active">Sign in</a></li>
+                  <li className="nav-item btn btn-outline-success me-2 active" ><a href="/signin" className="nav-link active">Sign in</a></li>
                 </form>
               </nav>
             </header>
           </div>
         </div>
+      </div>
+
+      <div className="row text-center p-5 bg-white">
+        <div className="col-md-4"></div>
+        <div className="col-md-4 ">
+          <form>
+          <img className="mb-4" src="https://image.dogilike.com/shareimg/contentimg/2021/meaw/%E0%B9%80%E0%B8%A3%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%87%E0%B8%99%E0%B9%88%E0%B8%B2%E0%B8%A3%E0%B8%B9%E0%B9%89/29092021/iStock-953069774.jpg" alt width={72} height={57} />
+          <h1 className="h3 mb-3 fw-normal">Please sign in</h1>
+          <div className="form-floating">
+            <input type="email" className="form-control" id="floatingInput" placeholder="name@example.com" />
+            <label htmlFor="floatingInput">Email address</label>
+          </div>
+          <div className="form-floating">
+            <input type="password" className="form-control" id="floatingPassword" placeholder="Password" />
+            <label htmlFor="floatingPassword">Password</label>
+          </div>
+          <div className="checkbox mb-3">
+            <label>
+              <input type="checkbox" defaultValue="remember-me" /> Remember me
+            </label>
+          </div>
+          <button className="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
+          <p className="mt-5 mb-3 text-muted">© 2017–2021</p>
+        </form>
+        </div>
+        <div className="col-md-4"></div>
       </div>
 
       <div className="row">
@@ -47,5 +72,5 @@ export default function Service() {
         </div>
       </div>
     </>
-  );
+  )
 }
