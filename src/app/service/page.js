@@ -5,7 +5,7 @@ export default function Service() {
     <>
       <div className="container-fluid">
         <div className="row bg-white">
-          <div className="col-md-12 text-center p-0">
+          <div className="col-md-12 text-center">
             <header className="d-flex flex-wrap justify-content-center py-2 mb-1 border-bottom">
               <a href="/" className="d-flex align-items-center mb-md- me-md-auto link-body-emphasis text-decoration-none">
                 <img src="https://image.dogilike.com/shareimg/contentimg/2021/meaw/%E0%B9%80%E0%B8%A3%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%87%E0%B8%99%E0%B9%88%E0%B8%B2%E0%B8%A3%E0%B8%B9%E0%B9%89/29092021/iStock-953069774.jpg" className="rounded me-1 p-1" width={40} height={40} alt="..." />

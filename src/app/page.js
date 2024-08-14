@@ -4,8 +4,8 @@ export default function Home() {
   return (
     <>
       <div className="container-fluid">
-        <div className="row">
-          <div className="col-md-12 text-center p-0">
+        <div className="row bg-white">
+          <div className="col-md-12 text-center">
             <header className="d-flex flex-wrap justify-content-center py-2 mb-1 border-bottom">
               <a href="/" className="d-flex align-items-center mb-md- me-md-auto link-body-emphasis text-decoration-none">
                 <img src="https://image.dogilike.com/shareimg/contentimg/2021/meaw/%E0%B9%80%E0%B8%A3%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%87%E0%B8%99%E0%B9%88%E0%B8%B2%E0%B8%A3%E0%B8%B9%E0%B9%89/29092021/iStock-953069774.jpg" class="rounded me-1 p-1" width={40} height={40} alt="..." />
@@ -17,20 +17,20 @@ export default function Home() {
                 <li className="nav-item"><a href="/service" className="nav-link">Service</a></li>
                 <li className="nav-item"><a href="/contact" className="nav-link">Contact</a></li>
               </ul>
-              <nav className="navbar">
+              <nav className="navbar bg-white">
                 <form className="container-fluid justify-content-start ">
                   <li className="nav-item btn btn-outline-success me-2" ><a href="/signup" className="nav-link active">Sign up</a></li>
                   <li className="nav-item btn btn-outline-success me-2" ><a href="/signin" className="nav-link active">Sign in</a></li>
                 </form>
               </nav>
-              
+
             </header>
           </div>
         </div>
       </div>
 
       <div className="row">
-        <div className="col-md-12 text-center p-0">
+        <div className="col-md-12 text-center">
           <div id="carouselExampleCaptions" className="carousel slide">
             <div className="carousel-indicators">
               <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to={0} className="active" aria-current="true" aria-label="Slide 1" />
