@@ -1,8 +1,8 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-
 export default function About() {
   return (
     <>
+    
       <div className="container-fluid">
         <div className="row bg-white">
           <div className="col-md-12 text-center">

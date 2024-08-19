@@ -30,27 +30,27 @@ export default function Signup() {
         <div className="col-md-6 bg-white p-5">
           <form className="row g-3">
             <div className="col-md-6">
-              <label htmlFor="floatingInput" className="form-label">Email</label>
+              <label htmlFor="floatingInput" className="form-label"><b>Email</b></label>
               <input type="email" className="form-control" id="floatingInput" placeholder="name@example.com"/>
             </div>
             <div className="col-md-6">
-              <label htmlFor="inputPassword4" className="form-label">Password</label>
+              <label htmlFor="inputPassword4" className="form-label"><b>Password</b></label>
               <input type="password" className="form-control" id="inputPassword4" />
             </div>
             <div className="col-12">
-              <label htmlFor="inputAddress" className="form-label">Address</label>
+              <label htmlFor="inputAddress" className="form-label"><b>Address</b></label>
               <input type="text" className="form-control" id="inputAddress" placeholder="1234 Main St" />
             </div>
             <div className="col-12">
-              <label htmlFor="inputAddress2" className="form-label">Address 2</label>
+              <label htmlFor="inputAddress2" className="form-label"><b>Address 2</b></label>
               <input type="text" className="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor" />
             </div>
             <div className="col-md-6">
-              <label htmlFor="inputCity" className="form-label">City</label>
+              <label htmlFor="inputCity" className="form-label"><b>City</b></label>
               <input type="text" className="form-control" id="inputCity" />
             </div>
             <div className="col-md-4">
-              <label htmlFor="inputState" className="form-label">State</label>
+              <label htmlFor="inputState" className="form-label"><b>State</b></label>
               <select id="inputState" className="form-select">
                 <option selected>Choose...</option>
                 <option>Sing</option>
@@ -62,12 +62,12 @@ export default function Signup() {
               <div className="form-check">
                 <input className="form-check-input" type="checkbox" id="gridCheck" />
                 <label className="form-check-label" htmlFor="gridCheck">
-                  Check me out
+                  <b>Check me out</b>
                 </label>
               </div>
             </div>
             <div className="col-12">
-              <button type="submit" className="btn btn-primary">Sign up</button>
+              <button type="submit" className="btn btn-info"><b>Sign up</b></button>
             </div>
           </form>
         </div>
